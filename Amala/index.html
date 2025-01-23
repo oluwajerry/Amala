@@ -8,10 +8,14 @@
 </head>
 <body>
     <header class="header">
-        <section class="marquee__content">
+        <section class="header__content">
             <marquee behavior="" direction="">
                 <p>Welcome to Amala Connect Were Nigerian cuisine meet Perfection</p>
             </marquee>
+            
+            <!-- <section class="welcome__Msg">
+                <h1>WELCOME TO AmalaConnect!</h1>
+            </section> -->
         </section>
         <nav class="navbar">
             <figure class="logo">
@@ -19,7 +23,14 @@
             </figure>
             <ul class="navbar__list">
                 <li><a href="#">Home </a></li>
-                <li><a href="#">Shop</a></li>
+                <li><a href="#">Shop</a>
+                    <ul class="shop__list">
+                        <li><a href="#">Soup</a></li>
+                        <li><a href="#">carbonhydrate</a></li>
+                        <li><a href="#">Drinks</a></li>
+                        <li><a href="#">Specials</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Track Order</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
@@ -30,9 +41,9 @@
         <article>
             <section class="front__images">
                 <figure class="carousel">
-                    <img src="images/amala.webp" alt="amala image">
+                    <img src="images/amala3.jpg" alt="amala image">
                 </figure>
-                <div class="heading">
+                <div class="largeScreen">
                     <img src="images/LOGO.jpg" alt="" width="100">
                     <h1>Savour the Taste of <br>Authentic Nigerian Cuisine</h1>
                 </div>
@@ -80,16 +91,16 @@
                         <img src="images/amala2.jpg" alt="card-image">
                     </figure>
                     <section class="card__body">
-                        Our chefs customize meals based on your preferences to deliver a personalized dining experience.
+                        <p>Our chefs customize meals based on your preferences to deliver a personalized dining experience.</p>
                     </section>
                 </div>
                 <div class="card__items">
                     <h3>Our Expertise</h3>
                     <figure>
-                        <img src="images/amala2.jpg" alt="card-image">
+                        <img src="images/amala3.jpg" alt="card-image">
                     </figure>
                     <section class="card__body">
-                        With over a decade of perfecting traditional recipes, we bring you authentic flavors that remind you of home.
+                        <p>With over a decade of perfecting traditional recipes, we bring you authentic flavors that remind you of home.</p>
                     </section>
                 </div>
                 <div class="card__items">
@@ -98,142 +109,171 @@
                         <img src="images/amala2.jpg" alt="card-image">
                     </figure>
                     <section class="card__body">
-                       Our amala is prepared the authentic yoruba way giving you the taste of Nigeria's rich culinary heritage.
+                       <p>Our amala is prepared the authentic yoruba way giving you the taste of Nigeria's rich culinary heritage.</p>
                     </section>
                 </div>
-                <div class="image__galarry">
-                    <!--The one above or thisapply image animation  -->
-                </div>
+
             </section>
         </article>
 
-        <!-- <article class="products">
-            <div class="card__items">
+        <article class="products">
+            <h1> Our Features Products </h1>
+            <p> Select from our most loved meals right now! </p>
+            <div class="product__card__items">
                 <figure>
                     <img src="images/amala2.jpg" alt="card-image">
                 </figure>
                 <section class="card__body">
                     <p>Okro Soup</p>
-                    <p> #1300.00</p>
-                    <p><a href="Add to Wishlist"></a></p>
+                    <p><del>#1500.00</del> #1300.00</p>
+                    <p><a href="">Add to Wishlist</a></p>
+                </section>
+                <section class="cart__discount__btn">
+                    <button>-4%</button>
+                    <button><img src="images/delivery.png" alt=""></button>
                 </section>
             </div>
-            <div class="card__items">
+            <div class="product__card__items">
                 <figure>
-                    <img src="images/amala2.jpg" alt="card-image">
+                    <img src="images/amala.webp" alt="card-image">
                 </figure>
                 <section class="card__body">
                     <p>Okro Soup</p>
-                    <p> #1300.00</p>
-                    <p><a href="Add to Wishlist"></a></p>
+                    <p><del>#1500.00</del> #1300.00</p>
+                    <p><a href="">Add to Wishlist</a></p>
+                </section>
+                <section class="cart__discount__btn">
+                    <button>-4%</button>
+                    <button><img src="images/delivery.png" alt=""></button>
                 </section>
             </div>
-            <div class="card__items">
+            <div class="product__card__items">
                 <figure>
-                    <img src="images/amala2.jpg" alt="card-image">
+                    <img src="images/amala3.jpg" alt="card-image">
                 </figure>
                 <section class="card__body">
                     <p>Okro Soup</p>
-                    <p> #1300.00</p>
-                    <p><a href="Add to Wishlist"></a></p>
+                    <p><del>#1500.00</del> #1300.00</p>
+                    <p><a href="">Add to Wishlist</a></p>
+                </section>
+                <section class="cart__discount__btn">
+                    <button>-4%</button>
+                    <button><img src="images/delivery.png" alt=""></button>
                 </section>
             </div>
-        </article> -->
+        </article>
 
         <article class="contact">
-            <h1>it will be a pleasure hearing from you</h1>
+            <h1>Say Somthing</h1>
             <p>Feel free to share your thoughts and opinions. We take our customers seriously.</p>
             <form action="">
                 <fieldset>
                     <legend>Contact us</legend>
-                    <label for="name">Name</label>
-                    <p><input type="text" name="name" id=""></p>
-                    <label for="email">email</label>
-                    <p><input type="email" name="name" id=""></p>
+                    <section class="formInput">
+                        <div class="firstInput">
+                            <label for="name">Name</label>
+                            <p><input type="text" name="name" id="" placeholder="Jeremy JR" ></p>
+                        </div>
+                        <div class="secondInput">
+                            <label for="email">email</label>
+                            <p><input type="email" name="name" id="" placeholder="Jeremy@gmail.com" autocomplete="on"></p>
+                        </div>
+                    </section>
                     <label for="message">Message</label>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Say something"></textarea>
+                    <textarea name="message" id="message" placeholder="Write your comment here!"></textarea>
                     <button type="submit">Send</button>
                 </fieldset>
             </form>
         </article>
 
-        <!-- <article class="TEstimonny">
-            <div class="card__items">
-                <h3>Our Expertise</h3>
+        <article class="TEstimonny">
+            <h1>What Client Say</h1>
+            <!-- <hr> -->
+            <div class="testimonial__card__items">
+                <div class="card__item">
+                    <figure>
+                        <img src="images/amala2.jpg" alt="card-image">
+                    </figure>
+                </div>
+                <h3>Dr Daniel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae hic quidem exercitationem voluptates, a atque.</p>
+                <figure>
+                    <img src="images/amala2.jpg" alt="card-image">
+                </figure>
                 <section class="card__body">
                     With over a decade of perfecting traditional recipes, we bring you authentic flavors that remind you of home.
                 </section>
+            </div>
+            <div class="testimonial__card__items">
+                <div class="card__item">
+                    <figure>
+                        <img src="images/amala2.jpg" alt="card-image">
+                    </figure>
+                </div>
+                <h3>MR. Praise</h3>
+                <p>lorem</p>
                 <figure>
                     <img src="images/amala2.jpg" alt="card-image">
-                    <figcaption>
-                      <!--  remember to add star 
-                        <p>& days ago</p>
-                    </figcaption>
                 </figure>
-            </div>
-            <div class="card__items">
-                <h3>Our Expertise</h3>
                 <section class="card__body">
                     With over a decade of perfecting traditional recipes, we bring you authentic flavors that remind you of home.
                 </section>
+            </div>
+            <div class="testimonial__card__items">
+                <div class="card__item">
+                    <figure>
+                        <img src="images/amala2.jpg" alt="card-image">
+                    </figure>
+                </div>
+                <h3>Prof. Ifeanyi</h3>
+                <p>lorem</p>
                 <figure>
                     <img src="images/amala2.jpg" alt="card-image">
-                    <figcaption>
-                        <!-- remember to add st
-                        <p>& days ago</p>
-                    </figcaption>
                 </figure>
-            </div>
-            <div class="card__items">
-                <h3>Our Expertise</h3>
                 <section class="card__body">
                     With over a decade of perfecting traditional recipes, we bring you authentic flavors that remind you of home.
                 </section>
-                <figure>
-                    <img src="images/amala2.jpg" alt="card-image">
-                    <figcaption>
-                        <!-- remember to add star 
-                        <p>& days ago</p>
-                    </figcaption>
-                </figure>
-
             </div>
-        </article> -->
+    
+        </article>
     </main>
     <footer>
         <div class="footer_maintext">
-            <section class="footer__text">
+            <section class="footer__writeUp">
                 <p>At Amala360, our mission is to bring the authentic taste of Nigerian cuisine to your table with unmatched quality.</p>
                 <div class="socialMedia__icon"></div>
             </section>
             <section class="footer__text">
                 <p>support</p>
                 <ul>
-                    <li>Policy</li>
-                    <li>Policy</li>
-                    <li>Policy</li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Policy</a></li>
                 </ul>
             </section>
             <section class="footer__text">
                 <p>customer</p>
                 <ul>
-                    <li>Policy</li>
-                    <li>Policy</li>
-                    <li>Policy</li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Policy</a></li>
                 </ul>
             </section>
             <section class="footer__text">
                 <p>pages</p>
                 <ul>
-                    <li>Policy</li>
-                    <li>Policy</li>
-                    <li>Policy</li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Policy</a></li>
+                    <li><a href="#">Policy</a></li>
                 </ul>
             </section>
         </div>
-        <section class="copyrigth">
+        <section class="copyright">
             <p>copyright@amalaConnect2025</p>
         </section>
     </footer>
+
+    <script>
+    </script>
 </body>
 </html>
